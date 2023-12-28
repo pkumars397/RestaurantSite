@@ -1,9 +1,11 @@
 import React from "react";
 import Header from "./components/LayOut/Header";
+import MealsSummary from "./components/Meals/MealsSummary";
 function App() {
   return (
     <React.Fragment>
       <Header />
+      <MealsSummary />
     </React.Fragment>
   );
 }
